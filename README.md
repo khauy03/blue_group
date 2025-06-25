@@ -1,6 +1,4 @@
 
-## 🔧 **BƯỚC 1: CÀI ĐẶT THƯ VIỆN**
-
 ### **Cài đặt dependencies**
 
 ```bash
@@ -12,8 +10,6 @@ npm install
 # - Tải về tất cả thư viện trong package.json
 # - Có thể mất 2-5 phút tùy tốc độ mạng
 ```
-
-## ⚙️ **BƯỚC 2: CẤU HÌNH BIẾN MÔI TRƯỜNG**
 
 ### **Nội dung file .env**
 
@@ -38,7 +34,6 @@ MONGODB_TEST_URI=mongodb://localhost:27017/bat_dong_san_test
 - **Không commit file .env**: File này chứa thông tin nhạy cảm
 - **Kiểm tra .gitignore**: Đảm bảo .env đã được ignore
 
-## 🌱 **BƯỚC 3: TẠO DỮ LIỆU MẪU**
 
 ### **Chạy seeder**
 
@@ -51,8 +46,6 @@ npm run seed
 # - Thêm dữ liệu mẫu cho categories
 # - Tạo một số user và post mẫu
 ```
-
- **BƯỚC 6: CHẠY ỨNG DỤNG**
 
 ### **Chế độ phát triển**
 
