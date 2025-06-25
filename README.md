@@ -1,22 +1,3 @@
-# 🚀 HƯỚNG DẪN CHẠY CODE - WEBSITE RAO VẶT BẤT ĐỘNG SẢN
-
-## 📋 **YÊU CẦU HỆ THỐNG**
-
-### **Phần mềm cần thiết**
-
-- **Node.js**: Phiên bản 16.0 trở lên
-- **MongoDB**: Phiên bản 5.0 trở lên
-- **Git**: Để clone source code
-- **Code Editor**: VS Code (khuyến nghị)
-
-### **Kiểm tra phiên bản**
-
-```bash
-node --version          # Kiểm tra Node.js
-npm --version           # Kiểm tra npm
-mongod --version        # Kiểm tra MongoDB
-git --version           # Kiểm tra Git
-```
 
 ## 🔧 **BƯỚC 1: CÀI ĐẶT THƯ VIỆN**
 
@@ -71,7 +52,7 @@ npm run seed
 # - Tạo một số user và post mẫu
 ```
 
-## 🚀 **BƯỚC 6: CHẠY ỨNG DỤNG**
+ **BƯỚC 6: CHẠY ỨNG DỤNG**
 
 ### **Chế độ phát triển**
 
@@ -83,74 +64,6 @@ npm run dev
 npm start
 ```
 
-### **Kiểm tra ứng dụng đã chạy**
-
-```bash
-# Bạn sẽ thấy thông báo:
-# 🚀 Server is running on http://localhost:3000
-# ✅ MongoDB connected: localhost
-# 📊 Database: bat_dong_san
-# 🌍 Environment: development
-```
-
-### **Mở trình duyệt**
-
-```
-# Truy cập các URL sau:
-http://localhost:3000                    # Trang chủ
-http://localhost:3000/login             # Đăng nhập
-http://localhost:3000/register          # Đăng ký
-http://localhost:3000/admin             # Quản trị (cần đăng nhập admin)
-http://localhost:3000/test-db           # Kiểm tra database
-```
-
-## 🔍 **BƯỚC 7: KIỂM TRA CHỨC NĂNG**
-
-### **Kiểm tra trang chủ**
-
-- ✅ Trang chủ hiển thị đúng
-- ✅ Navigation bar hoạt động
-- ✅ Tin đăng mẫu hiển thị
-- ✅ Form tìm kiếm hoạt động
-
-### **Kiểm tra đăng ký/đăng nhập**
-
-```bash
-# Tạo tài khoản mới
-1. Vào http://localhost:3000/register
-2. Điền thông tin đăng ký
-3. Kiểm tra đăng ký thành công
-
-# Đăng nhập
-1. Vào http://localhost:3000/login
-2. Sử dụng tài khoản vừa tạo
-3. Kiểm tra đăng nhập thành công
-```
-
-### **Kiểm tra admin panel**
-
-```bash
-# Đăng nhập admin
-1. Sử dụng tài khoản admin đã tạo
-2. Vào http://localhost:3000/admin
-3. Kiểm tra dashboard hiển thị
-4. Kiểm tra các chức năng quản lý
-```
-
-### **Kiểm tra tạo tin đăng**
-
-```bash
-# Tạo tin đăng mới
-1. Đăng nhập với tài khoản user
-2. Vào "Đăng tin"
-3. Điền form và upload ảnh
-4. Kiểm tra tin đăng được tạo
-```
-
-## 🎉 **CHÚC MỪNG!**
-
-Nếu bạn đã hoàn thành tất cả các bước trên, website đã sẵn sàng để sử dụng!
-
 **Các tính năng chính:**
 
 - ✅ Đăng ký/Đăng nhập người dùng
@@ -160,4 +73,3 @@ Nếu bạn đã hoàn thành tất cả các bước trên, website đã sẵn 
 - ✅ Admin panel quản trị
 - ✅ Responsive design
 
-**Happy Coding! 🚀**
